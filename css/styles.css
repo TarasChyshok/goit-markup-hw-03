@@ -26,6 +26,10 @@ ol {
   list-style-type: none;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 100%;
   max-width: 1158px;
@@ -275,6 +279,7 @@ body {
 }
 
 .portfolio-li {
+  width: calc((100%-48px) / 3);
 }
 
 .portfolio-li-div {
